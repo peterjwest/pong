@@ -1,0 +1,59 @@
+body {
+	margin: 0;
+	background: black;
+	overflow: hidden;
+	color: white;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.arena {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.ball {
+	width: 30px;
+	height: 30px;
+	background: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	border-radius: 25px;
+}
+
+.player {
+	width: 30px;
+	height: 100px;
+	background:white;
+	position: absolute;
+	top: 50%;
+}
+
+.player1 {
+	background: rgb(255, 40, 10);
+	left: 10px;
+}
+
+.player2 {
+	background: rgb(30, 100, 255);
+	right: 10px;
+}
+
+.score {
+	font-size: 30px;
+}
+
+.player1Score {
+	float: left;
+	padding-left: 70px;
+	color: rgb(255, 40, 10);
+}
+
+.player2Score {
+	float: right;
+	padding-right: 70px;
+	color: rgb(30, 100, 255);
+}
